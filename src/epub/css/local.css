@@ -1,6 +1,71 @@
 @charset "UTF-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+b{
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
+.inscription{
+	font-variant: small-caps;
+}
+
+table.program{
+	max-width: 50%;
+	margin: 1em auto;
+}
+
+table.program th{
+	font-weight: normal;
+	font-variant: small-caps;
+		text-align: left;
+}
+
+table.program th:last-child{
+	text-align: right;
+}
+
+table.program p{
+	text-indent: 0;
+	margin-bottom: 1em;
+}
+
+table.program + p{
+	text-indent: 0;
+}
+
+
+*[epub|type~="z3998:song"] p,
+*[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+*[epub|type~="z3998:song"] p span,
+*[epub|type~="z3998:poem"] p span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+*[epub|type~="z3998:song"] br,
+*[epub|type~="z3998:poem"] br{
+	display: none;
+}
+
+*[epub|type~="z3998:song"] p + p,
+*[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+*[epub|type~="z3998:song"] span.i1,
+*[epub|type~="z3998:poem"] span.i1,
+*[epub|type~="z3998:song"] + p,
+*[epub|type~="z3998:poem"] + p{
+	text-indent: 0;
+}
+
+
 /* helpful during drafting */
 *[epub|type~="z3998:roman"],
 *[lang]:not(html),
