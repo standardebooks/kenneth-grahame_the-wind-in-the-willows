@@ -6,8 +6,10 @@ b{
 	font-variant: small-caps;
 }
 
-.inscription{
+.inscription p{
+	text-indent: 0;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 table.program{
@@ -58,11 +60,14 @@ table.program + p{
 	margin-top: 1em;
 }
 
-*[epub|type~="z3998:song"] span.i1,
-*[epub|type~="z3998:poem"] span.i1,
 *[epub|type~="z3998:song"] + p,
 *[epub|type~="z3998:poem"] + p{
 	text-indent: 0;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
 
 span[epub|type~="subtitle"]{
