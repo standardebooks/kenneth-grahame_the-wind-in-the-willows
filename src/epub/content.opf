@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/kenneth-grahame/the-wind-in-the-willows</dc:identifier>
 		<dc:date>2015-10-30T23:56:40Z</dc:date>
-		<meta property="dcterms:modified">2017-09-22T21:43:52Z</meta>
-		<meta property="se:revision-number">30</meta>
+		<meta property="dcterms:modified">2017-09-25T18:11:48Z</meta>
+		<meta property="se:revision-number">31</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -53,7 +53,6 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/kenneth-grahame_the-wind-in-the-willows</meta>
 		<dc:creator id="author">Kenneth Grahame</dc:creator>
 		<meta property="file-as" refines="#author">Grahame, Kenneth</meta>
-		<meta property="se:name.person.full-name" refines="#author">Kenneth Grahame</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Kenneth_Grahame</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50000823</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
