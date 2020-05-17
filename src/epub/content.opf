@@ -57,7 +57,7 @@
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">Four animals adventure through the bucolic English countryside.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Wind in the Willows&lt;/i&gt;, the story of four animals and their adventures in the idyllic English countryside, started out as bedtime stories Grahame would tell his son. He eventually started writing them down, and finally produced this much-loved childrens classic.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Wind in the Willows&lt;/i&gt;, the story of four animals and their adventures in the idyllic English countryside, started out as bedtime stories &lt;a href="https://standardebooks.org/ebooks/kenneth-grahame"&gt;Grahame&lt;/a&gt; would tell his son. He eventually started writing them down, and finally produced this much-loved childrens classic.&lt;/p&gt;
 			&lt;p&gt;In continuous print since 1908, &lt;i&gt;The Wind in the Willows&lt;/i&gt; has been illustrated countless times and adapted to stage, radio, and screen.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
