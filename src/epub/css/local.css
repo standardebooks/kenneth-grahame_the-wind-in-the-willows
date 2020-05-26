@@ -12,30 +12,6 @@
 	text-align: center;
 }
 
-table{
-	max-width: 50%;
-	margin: 1em auto;
-}
-
-table th{
-	font-weight: normal;
-	font-variant: small-caps;
-	text-align: left;
-}
-
-table th:last-child{
-	text-align: right;
-}
-
-table p{
-	text-indent: 0;
-	margin-bottom: 1em;
-}
-
-table + p{
-	text-indent: 0;
-}
-
 [epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
@@ -67,4 +43,49 @@ p span.i1{
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
+}
+
+#chapter-12 blockquote:nth-of-type(2) p{
+	display: table-row;
+	text-indent: 0;
+}
+
+#chapter-12 blockquote:nth-of-type(2) p span,
+#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1) b{
+	display: table-cell;
+	font-variant: small-caps;
+}
+
+#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(6){
+	text-align: center;
+}
+
+#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1) b{
+	white-space: nowrap;
+	padding-top: 1em;
+}
+
+#chapter-12 blockquote:nth-of-type(2) p:first-of-type b{
+	padding: 0;
+}
+
+@supports(display: flex){
+	#chapter-12 blockquote:nth-of-type(2) p{
+		display: block;
+	}
+
+	#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1){
+		display: flex;
+		justify-content: space-between;
+		margin-top: 1em;
+	}
+
+	#chapter-12 blockquote:nth-of-type(2) p span,
+	#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1) b{
+		display: inline;
+	}
+
+	#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1) b{
+		padding: 0;
+	}
 }
