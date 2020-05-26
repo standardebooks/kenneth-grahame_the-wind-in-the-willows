@@ -51,7 +51,7 @@ span[epub|type~="subtitle"]{
 }
 
 #chapter-12 blockquote:nth-of-type(2) p span,
-#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1) b{
+#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(odd) b{
 	display: table-cell;
 	font-variant: small-caps;
 }
@@ -60,7 +60,7 @@ span[epub|type~="subtitle"]{
 	text-align: center;
 }
 
-#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1) b{
+#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(odd) b{
 	white-space: nowrap;
 	padding-top: 1em;
 }
@@ -74,18 +74,18 @@ span[epub|type~="subtitle"]{
 		display: block;
 	}
 
-	#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1){
+	#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(odd){
 		display: flex;
 		justify-content: space-between;
 		margin-top: 1em;
 	}
 
 	#chapter-12 blockquote:nth-of-type(2) p span,
-	#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1) b{
+	#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(odd) b{
 		display: inline;
 	}
 
-	#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(2n + 1) b{
+	#chapter-12 blockquote:nth-of-type(2) p:nth-of-type(odd) b{
 		padding: 0;
 	}
 }
