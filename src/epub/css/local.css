@@ -40,11 +40,6 @@ p span.i1{
 	padding-left: 2em;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 #chapter-12 blockquote:nth-of-type(2) p{
 	display: table-row;
 	text-indent: 0;
