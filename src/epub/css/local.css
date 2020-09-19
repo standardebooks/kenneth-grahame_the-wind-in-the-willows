@@ -31,10 +31,6 @@
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:song"] + p{
-	text-indent: 0;
-}
-
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
