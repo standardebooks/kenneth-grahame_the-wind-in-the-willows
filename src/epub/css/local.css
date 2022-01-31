@@ -7,9 +7,9 @@
 }
 
 #chapter-3 blockquote p{
-	text-indent: 0;
 	font-variant: small-caps;
 	text-align: center;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:song"] p{
@@ -52,8 +52,8 @@ p span.i1{
 }
 
 #chapter-12 blockquote:nth-of-type(2) p:nth-of-type(odd) b{
-	white-space: nowrap;
 	padding-top: 1em;
+	white-space: nowrap;
 }
 
 #chapter-12 blockquote:nth-of-type(2) p:first-of-type b{
