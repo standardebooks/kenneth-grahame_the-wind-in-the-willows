@@ -6,6 +6,11 @@
 	text-align: center;
 }
 
+#chapter-1 span{
+	/* Allow line breaks for stylized word in small screens */
+	word-break: break-all;
+}
+
 #chapter-3 blockquote p{
 	font-variant: small-caps;
 	text-align: center;
