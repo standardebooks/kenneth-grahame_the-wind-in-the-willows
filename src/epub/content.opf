@@ -65,7 +65,7 @@
 		<meta id="collection-3" property="belongs-to-collection">The Guardian’s 100 Greatest Novels of All Time (2003)</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
 		<meta property="group-position" refines="#collection-3">40</meta>
-		<dc:abstract>Four animals adventure through the bucolic English countryside.</dc:abstract>
+		<meta property="schema:abstract">Four animals adventure through the bucolic English countryside.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Wind in the Willows&lt;/i&gt;, the story of four animals and their adventures in the idyllic English countryside, started out as bedtime stories &lt;a href="https://standardebooks.org/ebooks/kenneth-grahame"&gt;Grahame&lt;/a&gt; would tell his son. He eventually started writing them down, and finally produced this much-loved childrens classic.&lt;/p&gt;
 			&lt;p&gt;In continuous print since 1908, &lt;i&gt;The Wind in the Willows&lt;/i&gt; has been illustrated countless times and adapted to stage, radio, and screen.&lt;/p&gt;
