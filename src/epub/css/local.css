@@ -42,13 +42,11 @@ p span.i1{
 }
 
 #chapter-12 blockquote:nth-of-type(2) p{
-	display: table-row;
 	text-indent: 0;
 }
 
 #chapter-12 blockquote:nth-of-type(2) p span,
 #chapter-12 blockquote:nth-of-type(2) p:nth-of-type(odd) b{
-	display: table-cell;
 	font-variant: small-caps;
 }
 
